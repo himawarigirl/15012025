@@ -5,7 +5,7 @@ const Footer = () => {
     <div className={classes['footer']}>
       <div className={classes['footer__wrapper']}>
         <div className={classes['footer__info']}>
-          <img src="/Logo.svg" alt="logo" />
+          <img src="/Logo_Light.svg" alt="logo" />
           <p className={classes['footer__text_italic']}>We are a residential interior design firm located in Portland. Our boutique-studio offers more than</p>
         </div>
         <div className={classes['footer__list']}>
