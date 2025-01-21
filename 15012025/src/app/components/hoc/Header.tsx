@@ -1,17 +1,17 @@
-import classes from '../../styles/components/hoc/Header.module.scss';
+import s from '../../styles/components/hoc/Header.module.scss'
 
 const Header = () => {
   return (
-    <div className={classes['header']}>
+    <div className={s.header}>
       <div>
         <img src="/Logo_Dark.svg" alt="" />
       </div>
-      <div className={classes['search']}>
+      <div className={s.search}>
         <img src="/Search.svg" alt="" />
-        <input type="text" className={classes['search-input']} placeholder='Search' />
+        <input type="text" className={s.search__input} placeholder='Search' />
       </div>
-      <div className={classes['header-icons']}>
-        <a href="">
+      <div className={s.search__icons}>
+        <a href="/favorite">
           <img src="/Favorites.svg" alt="" />
         </a>
         <a href="/cart">
