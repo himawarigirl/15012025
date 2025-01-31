@@ -1,6 +1,6 @@
 import Image from 'next/image';
-import s from '../../styles/components/hoc/Hero.module.scss';
-import Button from './Button';
+import s from '../../styles/components/home/Hero.module.scss';
+import Button from '../UIKIT/Button';
 
 const Hero = () => {
   return (

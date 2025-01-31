@@ -45,9 +45,8 @@
       color: #000;
     }
     &_img {
-      width: 104px;
       margin-right: 24px;
-      height: 272px;
+      object-fit: cover;
     }
   }
 
@@ -69,8 +68,7 @@
       color: #fff;
     }
     &_img {
-      width: 136px;
-      height: 190px;
+      object-fit: cover;
       margin-right: 24px;
     }
   }

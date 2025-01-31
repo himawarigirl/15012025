@@ -1,13 +1,13 @@
 import Image from 'next/image';
-import s from '../../styles/components/hoc/Hero_Grid.module.scss';
-import Button from './Button';
+import s from '../../styles/components/home/Grid.module.scss';
+import Button from '../UIKIT/Button';
 
-const Hero_Grid = () => {
+const Grid = () => {
   return (
     <div className={s.hero_grid}>
       <div className={s.hero_grid__left}>
         <div className={s.hero_grid__playstation}>
-          <Image src={'/routes/index/hero_grid/PlayStation.png'} width={360} height={343} alt="Playstation" className={s.hero_grid__playstation_img}></Image>
+          <Image src={'/home/grid/PlayStation.png'} width={360} height={343} alt="Playstation" className={s.hero_grid__playstation_img}></Image>
           <div className={s.hero_grid__playstation_right}>
             <div className={s.hero_grid__playstation_title}>Playstation 5</div>
             <div className={s.hero_grid__desc}>
@@ -17,14 +17,14 @@ const Hero_Grid = () => {
         </div>
         <div className={s.hero_grid__left_tiny}>
         <div className={s.hero_grid__airpods}>
-          <Image src={'/routes/index/hero_grid/AirPods.png'} width={104} height={272} alt="AirPods" className={s.hero_grid__airpods_img}></Image>
+          <Image src={'/home/grid/AirPods.png'} width={104} height={272} alt="AirPods" className={s.hero_grid__airpods_img}></Image>
           <div className={s.hero_grid__airpods_right}>
             <div className={s.hero_grid__airpods_title}>Apple AirPods Max</div>
             <div className={s.hero_grid__desc}>Computational audio. Listen, it's powerful</div>
           </div>
         </div>
         <div className={s.hero_grid__vision}>
-          <Image src={'/routes/index/hero_grid/Vision.png'} width={136} height={190} alt="Apple Vision" className={s.hero_grid__vision_img}></Image>
+          <Image src={'/home/grid/Vision.png'} width={136} height={190} alt="Apple Vision" className={s.hero_grid__vision_img}></Image>
           <div className={s.hero_grid__vision_right}>
             <div className={s.hero_grid__vision_title}>Apple Vision Pro</div>
             <div className={s.hero_grid__desc}>An immersive way to experience entertainment</div>
@@ -44,10 +44,10 @@ const Hero_Grid = () => {
             Shop now
           </Button>
         </div>
-        <Image src={'/routes/index/hero_grid/Macbook.png'} width={292} height={502} alt="Macbook" className={s.hero_grid__img}></Image>
+        <Image src={'/home/grid/Macbook.png'} width={292} height={502} alt="Macbook" className={s.hero_grid__img}></Image>
       </div>
     </div>
   );
 };
 
-export default Hero_Grid;
+export default Grid;

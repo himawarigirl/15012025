@@ -1,10 +1,10 @@
 import { FC, ReactNode } from "react";
-import s from '../../styles/components/hoc/Button.module.scss'
+import s from '../../styles/components/UIKIT/Button.module.scss'
 import classNames from "classnames/bind";
 
 interface ButtonProps {
     children: ReactNode
-    size: 's' | 'm' | 'auto'
+    size: 's' | 'm' | 'l' | 'auto' 
     style: 'black_outline' | 'black_solid' | 'white_outline' | 'white_solid'
 }
 

@@ -28,10 +28,10 @@ const Footer = () => {
         </div>
       </div>
       <div className={s.footer__icons}>
-        <img src="/Twitter.svg" alt="twitter" />
-        <img src="/Facebook.svg" alt="facebook" />
-        <img src="/Tiktok.svg" alt="tiktok" />
-        <img src="/Instagram.svg" alt="instagram" />
+        <a href=""><img src="/Twitter.svg" alt="twitter" /></a>
+        <a href=""><img src="/Facebook.svg" alt="facebook" /></a>
+        <a href=""><img src="/Tiktok.svg" alt="tiktok" /></a>
+        <a href=""><img src="/Instagram.svg" alt="instagram" /></a>
       </div>
     </div>
   );
